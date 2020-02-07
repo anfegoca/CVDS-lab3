@@ -44,9 +44,9 @@ entrada y resultados esperados.
 	-Dias antelación:
 
 		-dias < 0			Entrada: tarifa base : 400, Dias antelación: -6, Edad: 25; Salida: Valor Invalido
-		-dias < 0 && dias < 20		Entrada: tarifa base : 400, Dias antelación: -6, Edad: 25; Salida: 400
+		-dias > 0 && dias < 20		Entrada: tarifa base : 400, Dias antelación: 6, Edad: 25; Salida: 400
 		-dias >= 20 <= 99999		Entrada: tarifa base : 400, Dias antelación: 22, Edad: 25; Salida: 340
-		-dias > 99999			Entrada: tarifa base : 400, Dias antelación: 22, Edad: 25; Salida: Valor Invalido
+		-dias > 99999			Entrada: tarifa base : 400, Dias antelación: 100000, Edad: 25; Salida: Valor Invalido
 
 4. A partir de las clases de equivalencia identificadas en el punto 2, identifique las condiciones límite o
 de frontera de las mismas.
@@ -87,7 +87,7 @@ de frontera de las mismas.
 		Entrada: tarifa base : 500, Dias antelación: 0, Edad: 25; Salida: 500
 		Entrada: tarifa base : 500, Dias antelación: 1, Edad: 25; Salida: 500
 		Entrada: tarifa base : 500, Dias antelación: 19, Edad: 25; Salida: 500
-		Entrada: tarifa base : 500, Dias antelación: 20, Edad: 25; Salida: 340
-		Entrada: tarifa base : 500, Dias antelación: 21, Edad: 25; Salida: 340
-		Entrada: tarifa base : 500, Dias antelación: 99999, Edad: 25; Salida: 340
+		Entrada: tarifa base : 500, Dias antelación: 20, Edad: 25; Salida: 500
+		Entrada: tarifa base : 500, Dias antelación: 21, Edad: 25; Salida: 425
+		Entrada: tarifa base : 500, Dias antelación: 99999, Edad: 25; Salida: 425
 		Entrada: tarifa base : 500, Dias antelación: 100000, Edad: 25; Salida: Valor Invalido
